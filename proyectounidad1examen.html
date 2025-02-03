@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Mary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Cafetería Mary</h1>
+        <img src="logopagina.jpg" alt="Logotipo de la cafetería Mary" class="logo">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#promocion">Promoción</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="descripcion" class="content">
+        <h2>Descripción de la empresa</h2>
+        <p>La cafetería de la escuela ofrece un ambiente acogedor y nutritivo, brindando opciones saludables y espacios para socializar.</p>
+    </section>
+
+    <section id="vision" class="content">
+        <h2>Visión</h2>
+        <p>Ser un espacio vibrante donde los estudiantes disfruten de una alimentación equilibrada y momentos de relajación.</p>
+    </section>
+
+    <section id="menu" class="content">
+        <h2>Menú</h2>
+        <table>
+            <tr><th>#</th><th>Precio</th><th>Producto</th></tr>
+            <tr><td>1</td><td>$25</td><td>Café</td></tr>
+            <tr><td>2</td><td>$20</td><td>Té</td></tr>
+            <tr><td>3</td><td>$35</td><td>Capuchino</td></tr>
+            <tr><td>4</td><td>$40</td><td>Pastel</td></tr>
+        </table>
+    </section>
+
+    <section id="promocion" class="content">
+        <h2>¡Nuestros tacos en promoción!</h2>
+        <video controls poster="fototacos.jpeg">
+            <source src="tacosdorados.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="horarios" class="content">
+        <h2>Horarios</h2>
+        <p>De lunes a domingo de 7:00 AM a 2:00 PM.</p>
+    </section>
+
+    <section id="contacto" class="content">
+        <h2>Contacto</h2>
+        <form action="enviar_contacto.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en <a href="https://www.facebook.com/profile.php?id=61569279684486" target="_blank">Facebook</a></p>
+        <p>Programación Web - UPLC 2025</p>
+    </footer>
+</body>
+</html>
