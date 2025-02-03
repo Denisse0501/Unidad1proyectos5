@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Cafetería Mary</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #f4e1d2; /* Beige cálido */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #5D4037; /* Marrón oscuro */
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 600px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 5px solid #8D6E63; /* Marrón suave */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería - Cafetería Mary</h1>
+    <div class="gallery">
+        <img src="imagen1.jpg" alt="Café recién hecho">
+        <img src="imagen2.jpg" alt="Postres deliciosos">
+        <img src="imagen3.jpg" alt="Interior acogedor">
+        <img src="imagen4.jpg" alt="Taza de café en mesa rústica">
+        <img src="imagen5.jpg" alt="Barista preparando café">
+        <img src="imagen6.jpg" alt="Clientes disfrutando">
+    </div>
+</body>
+</html>
