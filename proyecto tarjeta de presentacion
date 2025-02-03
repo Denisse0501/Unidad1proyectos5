@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación - Cafetería Mary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #8B5A2B; /* Marrón café */
+        }
+        .card {
+            display: flex;
+            background: #F5E1C8; /* Color crema */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            align-items: center;
+        }
+        .card img {
+            border-radius: 10px;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .card-content {
+            flex: 1;
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 22px;
+            color: #4E342E; /* Marrón oscuro */
+        }
+        .card h3 {
+            margin: 5px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #6D4C41; /* Marrón más claro */
+        }
+        .card p {
+            font-size: 14px;
+            margin: 10px 0;
+            color: #4E342E;
+        }
+        .icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .icons a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #4E342E;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="imagen logo.jpg" alt="Logo de Cafetería Mary">
+        <div class="card-content">
+            <h2>Cafetería Mary</h2>
+            <h3>El mejor café con el mejor sabor</h3>
+            <p>Disfruta de un ambiente acogedor con café de la mejor calidad, postres caseros y un servicio excepcional.</p>
+            <div class="icons">
+                <a href="#">☕</a>
+                <a href="#">🍰</a>
+                <a href="#">📍</a>
+            </div>
+            <p>denni3681@gmail.com</p>
+        </div>
+    </div>
+    <img src="imagen2.0.jpg" alt="Imagen adicional de Cafetería Mary" style="display:none;">
+</body>
+</html>
